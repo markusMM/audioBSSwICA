@@ -36,6 +36,22 @@ We can take a look at the spectogramms of the signals before and after the separ
 
 If you want to find out how well this reconstruction listens, try the "main_BSS.m" scipt yourself! It will play you the results at the end after a few beeps ^^!
 
+## Installation
+
+### requirements
+
+It is important for you to have at least Matlab v2010a installed and successfully running. A few functions, like *FFT*, are still dependent in the following package:
+
+- Signal Procesing Library for Matlab
+
+### instruction
+
+Just clone the repo and run the examples. Plus, you could learn some Matlab syntax to use some functions right ahead by your own and improve the code for you needs. (Note that array indices here are biased by the vector object and have the notation "A(1:N)" for the first N elements of A for example!)
+
+## License
+
+This project is open source. Beside of Matlab itself, which is licensed under Mathworks (c), this projects source code is licensed under the GNU license for open and free software / code. Feel free to reuse and modify this code, but don't forget to eventuall mention this place and give feedback!
+
 ## Credits
 
 Markus Meister : university of Oldenburg (Olb) - Division for Machine Learning (H4A) (former student worker)
