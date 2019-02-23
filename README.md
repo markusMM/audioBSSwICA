@@ -14,6 +14,14 @@ Unfortunately, those methods are not separated, like the other methods in this p
 
 Since, this was a proof of concept and might be better transformed into Python for more utility, it does not have that many optimizations. Even in the sample files, frequency bins might not be used very well. This is one reason, why I changed the dimensionality of the output figures of the example.
 
+But really it makes a lot of sense exploring the "DSPII_ICA" folder yourself! There are a lot of useful functions for exploratory data analysis for acoustic / time series data ^^"
+
+A few nice ones to mention are:
+-kurt.m for the curtosis
+-konv.m for convolution of two time series (also as an even faster version, ... )
+-ovadd.m to reconstruct a signal previously windowed into several frequency bins
+
+
 ## Example
 
 As an example we have two 2 channel spoken stereo signals overlapped (see ... * or better hear * "audio/160318_02.WAV"). For the original setup we also once recorded our own signals with two microphones, but the results were terrible and the recodings quite large xP
@@ -22,9 +30,19 @@ I have to mention here, that we did not measure special frequency metrics, like 
 
 We can take a look at the spectogramms of the signals before and after the separation and the log-likelihood of the ICA MLE below.
 
-[some replacement text for the spectograms](https://github.com/markusMM/audioBSSwICA/raw/master/figures/SpecBSS_Lreverb.png)
+![some replacement text for the spectograms](https://github.com/markusMM/audioBSSwICA/raw/master/figures/SpecBSS_Lreverb.png)
 
-[some replacement text for the log-likelihood](https://github.com/markusMM/audioBSSwICA/raw/master/figures/logLikelihoodBSSf_Lreverb.png)
+![some replacement text for the log-likelihood](https://github.com/markusMM/audioBSSwICA/raw/master/figures/logLikelihoodBSSf_Lreverb.png)
 
+If you want to find out how well this reconstruction listens, try the "main_BSS.m" scipt yourself! It will play you the results at the end after a few beeps ^^!
+
+## Credits
+Markus Meister : university of Oldenburg (Olb) - Division for Machine Learning (H4A) (former student worker)
+<meister.markus.mm@gmx.net>
+Jakob Drefs : university of Oldenburg (Olb) - Division for Machine Learning (H4A)
+<jakob.heinrich.drefs@uol.de>
+Prof. Dr. Jörg Anemüller : university of Oldenburg (Olb) - Division for Signal Processing and Acoustics (H4A)
+
+## Final Note
 ATM this repo is WIP, 
 so please wait for the full adaptation to GIT!
