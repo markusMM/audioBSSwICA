@@ -37,11 +37,15 @@ We can take a look at the spectogramms of the signals before and after the separ
 If you want to find out how well this reconstruction listens, try the "main_BSS.m" scipt yourself! It will play you the results at the end after a few beeps ^^!
 
 ## Credits
+
 Markus Meister : university of Oldenburg (Olb) - Division for Machine Learning (H4A) (former student worker)
 <meister.markus.mm@gmx.net>
+
 Jakob Drefs : university of Oldenburg (Olb) - Division for Machine Learning (H4A)
 <jakob.heinrich.drefs@uol.de>
+
 Prof. Dr. Jörg Anemüller : university of Oldenburg (Olb) - Division for Signal Processing and Acoustics (H4A)
+<joern.anemueller@uol.de>
 
 ## Final Note
 ATM this repo is WIP, 
