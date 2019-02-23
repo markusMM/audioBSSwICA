@@ -22,7 +22,9 @@ I have to mention here, that we did not measure special frequency metrics, like 
 
 We can take a look at the spectogramms of the signals before and after the separation and the log-likelihood of the ICA MLE below.
 
+[some replacement text for the spectograms](https://github.com/markusMM/audioBSSwICA/raw/master/figures/SpecBSS_Lreverb.png)
 
+[some replacement text for the log-likelihood](https://github.com/markusMM/audioBSSwICA/raw/master/figures/logLikelihoodBSSf_Lreverb.png)
 
 ATM this repo is WIP, 
 so please wait for the full adaptation to GIT!
