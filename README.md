@@ -1,4 +1,5 @@
 # Audio BSS with ICA
+(c) Apr 2016 Markus Meister, Jakob Drefs, Jörn Anemüller
 
 This project is a proof of concept for the unsupervised (blind) separation of two audio sources captured from the same scene with K channels.
 
