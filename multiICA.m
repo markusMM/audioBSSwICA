@@ -6,8 +6,6 @@ function [Yend,W,Like] = multiICA(Y,MLEparam,fparam)
 % neural structure, similar to a neural network but with ICA update rules.
 % 
 % 
-% 
-% 
 
 addpath 'DSPII_ICA';
 
